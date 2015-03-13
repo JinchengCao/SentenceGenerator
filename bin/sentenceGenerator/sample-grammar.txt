@@ -1,0 +1,23 @@
+<sentence> ::= <noun phrase> <verb phrase>
+<sentence> ::= <noun phrase> <verb phrase> <conjunction> <verb phrase>
+<noun> ::= girl | chair | cup | book | toy | computer
+<noun> ::= phone | star | snake
+<transitive verb> ::= watches | hears | touches | eats
+<intransitive verb> ::= sneezes | sits | waits
+<adjective> ::= shiny | green | long | colorful
+<adjective> ::= expensive | little | old | gorgeous
+<adverb> ::= slowly | loudly | happily
+<adverb> ::= impatiently | enthusiastically | confidently
+<determiner> ::= a | the | this | that | each | every
+<pronoun> ::= he | she | it
+<pronoun> ::= someone | everybody
+<preposition> ::= in | on | of | around | about | under
+<conjunction> ::= and
+<conjunction> ::= but
+<noun phrase> ::= <determiner> <noun> | <determiner> <adjective> <noun>
+<noun phrase> ::= <determiner> <noun> <prepositional phrase>
+<verb phrase> ::= <intransitive verb> | <transitive verb> <noun phrase>
+<prepositional phrase> ::= <preposition> <noun phrase>
+
+
+
